@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Dos soles sobre un desierto">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1a3d"/><stop offset="0.55" stop-color="#d9733a"/><stop offset="1" stop-color="#f6c36b"/></linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#cielo)"/>
+  <circle cx="560" cy="360" r="62" fill="#fff3c4"/>
+  <circle cx="690" cy="410" r="38" fill="#ffd89a"/>
+  <path fill="#8a4a1f" d="M0 470 C180 400 320 500 520 440 C680 395 800 470 900 430 V700 H0Z"/>
+  <path fill="#5c2f12" d="M0 560 C220 500 360 600 560 540 C720 495 820 560 900 530 V700 H0Z"/>
+  <path fill="#2e1608" d="M0 640 C200 600 400 670 620 625 C760 600 840 640 900 625 V700 H0Z"/>
+</svg>

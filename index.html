@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Galaxia | Star Wars</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="./src/less/style.less" />
+</head>
+
+<body id="inicio">
+    {{>Heading titulo="Galaxia"}}
+
+    <main>
+        <section data-role="hero" class="hero">
+            <div class="hero-body">
+                <h1 class="title">Star Wars</h1>
+                <p class="subtitle">Planetas de una galaxia muy, muy lejana</p>
+            </div>
+        </section>
+
+        <section class="container desktop mt-6 cards" id="planetas">
+            <div class="grid">
+                <div class="row">
+                    {{>Card img="/src/assets/tatooine.jpg" titulo="Tatooine" texto="Planeta desértico con dos soles, lejos de las rutas principales de la galaxia. Allí creció Luke Skywalker."}}
+                    {{>Card img="/src/assets/hoth.jpg" titulo="Hoth" texto="Un mundo helado y casi sin vida. La Alianza Rebelde instaló allí la Base Echo antes de ser atacada por el Imperio."}}
+                    {{>Card img="/src/assets/mustafar.jpg" titulo="Mustafar" texto="Planeta volcánico con ríos de lava. Allí se libró el duelo entre Obi-Wan Kenobi y Anakin Skywalker."}}
+                </div>
+            </div>
+        </section>
+
+        <section data-role="half-panel" class="half-panel mt-6" id="saga">
+            <div class="half-image">
+                <img src="/src/assets/dunas.svg" alt="Dos soles sobre un desierto" />
+            </div>
+            <div class="half-text">
+                <h2>Una saga, muchos mundos</h2>
+                <p>Del desierto al hielo y a la lava, cada planeta tiene su propia historia.
+                    Explora los lugares que marcaron la lucha entre la Rebelión y el Imperio.</p>
+                <a class="button is-primary" href="#planetas">Ver planetas</a>
+            </div>
+        </section>
+    </main>
+
+    {{>Footer titulo="Galaxia"}}
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
